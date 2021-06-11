@@ -1,4 +1,4 @@
-import requests
+
 print ("🆃🅰🆂🆁🅸🅵 🅼🆄🅻🆃🅸🅼🅴🅳🅸🅰")
 number=str(input(" Enter The Number : "))
 
