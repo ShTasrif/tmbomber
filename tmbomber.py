@@ -54,8 +54,8 @@ def send(target):
   return True
 
 def main():
-  target = input("[*] Target Number: ")
-  amount = int(input("[*] Total Amount of SMS to send: "))
+  target = input("[*] Enter Target Number: ")
+  amount = int(input("[*] Enter Amount: "))
   sent, nsent = 0, amount
   for i in range(1, amount + 1):
     try:
