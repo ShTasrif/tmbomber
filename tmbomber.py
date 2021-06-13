@@ -1,8 +1,22 @@
 import requests as rq
 
-print ("🆃🅰🆂🆁🅸🅵")
+print("""######## ##     ##    ########   #######  ##     ## ########  ######## ########  
+   ##    ###   ###    ##     ## ##     ## ###   ### ##     ## ##       ##     ## 
+   ##    #### ####    ##     ## ##     ## #### #### ##     ## ##       ##     ## 
+   ##    ## ### ##    ########  ##     ## ## ### ## ########  ######   ########  
+   ##    ##     ##    ##     ## ##     ## ##     ## ##     ## ##       ##   ##   
+   ##    ##     ##    ##     ## ##     ## ##     ## ##     ## ##       ##    ##  
+   ##    ##     ##    ########   #######  ##     ## ########  ######## ##     ## """)
+print ("		")
+
+
+print ("Facebook.com/tasrif.hossen.shuvo")
+
+print ("Youtube.com/tasrifmultimedia")
+print ("	")
 
 """
+
 SMS Bomber using Hoichoi SMS api
 """
 
@@ -40,11 +54,11 @@ def main():
   for i in range(1, amount + 1):
     try:
       if send(target):
-        print(f"[ID: {i}] SMS Sent!")
+        print(f"[ID: {i}] SMS Sent✅")
         sent += 1
         nsent -= 1
       else:
-        print(f"[ID: {i}] SMS Not Sent...")
+        print(f"[ID: {i}] SMS Not Sent❌")
     except KeyboardInterrupt: break
     except Exception as e: print(e); break
   print(f"\n[*] Total Target: {amount}\n[+] Sent: {sent}\n[-] Not Sent: {nsent}")
