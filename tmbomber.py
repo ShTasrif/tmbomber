@@ -16,6 +16,9 @@ print ("		")
 print ("Facebook.com/tasrif.hossen.shuvo")
 
 print ("Youtube.com/tasrifmultimedia")
+
+print ("github.com/ShTasrif")
+
 print ("	")
 
 """
@@ -64,7 +67,7 @@ def main():
         print(f"[ID: {i}] SMS Not Sent❌")
     except KeyboardInterrupt: break
     except Exception as e: print(e); break
-  print(f"\n[*] Total Target: {amount}\n[+] Sent: {sent}\n[-] Not Sent: {nsent}")
+  print(f"\n[*] Total Target: {amount}\n[+] Sent✅: {sent}\n[-] Not Sent❌: {nsent}")
 
 if __name__ == "__main__":
   main()
