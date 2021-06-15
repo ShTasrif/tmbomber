@@ -6,3 +6,5 @@
 Run:
 1. cd tmbomber
 2. python tmbomber.py
+3. Username: TASRIF
+4. Password: MULTIMEDIA
