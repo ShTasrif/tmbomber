@@ -97,7 +97,7 @@ print(color_off)
 apt="https://assetliteapi.banglalink.net/api/v1/user/otp-login/request"
 
 number=str(input(" ➢Enter BL Number: "))
-amount=int(input("➢Enter The Amount:  ")) 
+amount=int(input(" ➢Enter The Amount:")) 
 
 know={'mobile':number}
 
