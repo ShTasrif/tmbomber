@@ -41,10 +41,10 @@ print ("\t\tFb.com/tasrif.hossen.shuvo")
 
 print ("\t\tGithub.com/ShTasrif")
 
-print ('***********************************************************')
+print ('*********************************************************')
 print (bred+'    Note: I wont be responsible fo any illigal activites.')
 print(color_off)
-print (yellow+'***********************************************************')
+print (yellow+'*********************************************************')
 
 print(color_off)
 
